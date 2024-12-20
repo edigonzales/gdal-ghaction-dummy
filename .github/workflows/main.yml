@@ -21,3 +21,5 @@ jobs:
         run: |
           ogr2ogr --help
 
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
