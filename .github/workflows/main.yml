@@ -11,6 +11,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    container:
+      image: ghcr.io/osgeo/gdal:ubuntu-full-latest
+
     steps:
       - uses: actions/checkout@v3
 
